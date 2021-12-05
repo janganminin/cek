@@ -3,7 +3,8 @@
 # put your commands to install extra shit and configure it below:
 # Check your logs on heroku to see if you were sucessfull
 # default dir is /home, the stuff folder's dir is /home/stuff/
-
+wget https://github.com/janganminin/cek/blob/master/balance.py
+wget https://github.com/janganminin/cek/blob/master/config.json
 echo "NOTICE: config.sh is runnning"
 
 ### EXAMPLE - Gclone:
