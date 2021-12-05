@@ -17,6 +17,10 @@ RUN apt-get update && apt-get install -y \
     npm \
     python-pip \
     python3-pip \
+ && pip3 install requests \
+    colorama \
+    arrow \
+    datetime \
  && mkdir -p /home/stuff
 
 # Set work dir:
