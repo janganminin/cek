@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     npm \
+    python-pip \
+    python3-pip \
  && mkdir -p /home/stuff
 
 # Set work dir:
