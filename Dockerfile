@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y \
     colorama \
     arrow \
     datetime \
+    bs4 \
  && mkdir -p /home/stuff
 
 # Set work dir:
