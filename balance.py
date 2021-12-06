@@ -25,12 +25,12 @@ tidur = data["sleep"]
 while(1):
     try:
         os.system('cls' if os.name=='nt' else 'clear')
-        print(hijau+"#####################################")
-        print(hijau+"###                               ###")
-        print(hijau+"###   Script Balance Nicehash     ###")
-        print(hijau+"###      Script by qaiscjdw       ###")
-        print(hijau+"###                               ###")
-        print(hijau+"#####################################")
+        print(hijau+"#################################")
+        print(hijau+"###                           ###")
+        print(hijau+"###     Balance Nicehash      ###")
+        print(hijau+"###   cuan cuan cuan cuan     ###")
+        print(hijau+"###                           ###")
+        print(hijau+"#################################")
 
         now = datetime.datetime.now()
         date = now.strftime("%H:%M:%S")
@@ -64,7 +64,7 @@ while(1):
         print(yellow+"Worker\t\t : "+putih+str(len(worker))+"\n")
 
 
-        print(hijau+"############### WORKER ##############\n")
+        print(hijau+"########## WORKER ##########\n")
         for wrkr in worker:
             nama = wrkr["name"]
             worker_status = wrkr["minerStatus"]
